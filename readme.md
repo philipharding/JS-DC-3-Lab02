@@ -40,6 +40,9 @@ Spotify API:
 The following are all optional bonus activities:
 * full CRUD
   * add the ability to delete artists and songs from your database
+* spruce up the styling a bit
+* look up a `partial` in handlebars and implement at least one
+  * an artist item partial or a song item partial, perhaps?
 * associate Artists with Songs
   * the artist page should list all songs by the artist
   * when adding a new song, associate it to an artist
