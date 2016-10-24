@@ -4,11 +4,13 @@ var hbs = require('express-handlebars')
 var mongoose = require('mongoose')
 var bodyParser = require('body-parser')
 
+
 // Setup connection to MongoDB using Mongoose
 mongoose.connect('mongodb://localhost:27017/tunr-solution')
 
 var Artist = require('./models/artists')
 var Song = require('./models/songs')
+
 
 // Create the Express app() and do some setup
 var app = express()
@@ -29,7 +31,7 @@ app.get('/', function( req, res ) {
 
   Artist.find({}, function( err, artists ) {
 
-    res.render('index', { slug: 'home', artists: artists })
+    res.render('index', { artists: artists })
 
   })
 

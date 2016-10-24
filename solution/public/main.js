@@ -19,6 +19,7 @@ var Tunr = {
       spotifyRequest.send()
 
       function handleSpotifyResponse( response ) {
+        
         var responseJSON = JSON.parse( response )
 
         console.log( responseJSON )
@@ -55,6 +56,7 @@ var Tunr = {
       spotifyRequest.send()
 
       function handleSpotifyResponse( response ) {
+
         var responseJSON = JSON.parse( response )
 
         console.log( responseJSON )
@@ -71,7 +73,7 @@ var Tunr = {
         }
 
       }
-      
+
     })
   }
 }
@@ -115,7 +117,6 @@ function generateRequest( method, requestUrl, handler ) {
 
   return request
 }
-
 
 function urlify( artist ) {
   return encodeURI( artist )
