@@ -1,17 +1,29 @@
 {
   "name": "tunr",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
+=======
+  "description": "the music streaming service you've always wanted",
+>>>>>>> 336d3e3b6d33a91c5bdaeda6771abbf22e31e33e
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "author": "",
+=======
+  "author": "PH",
+>>>>>>> 336d3e3b6d33a91c5bdaeda6771abbf22e31e33e
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
+<<<<<<< HEAD
     "mongoose": "^4.6.5"
+=======
+    "mongoose": "^4.6.4"
+>>>>>>> 336d3e3b6d33a91c5bdaeda6771abbf22e31e33e
   }
 }
